@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto;
+    font-family: 'Smythe', sans-serif;
+
+
+} 
+
+p {
+    margin:0
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 600px;
+    height: 167px;
+    display: block;
+}
+
+.order-container {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #d2d2d2;
+   
+}
+
+ .add-btn {
+    /* position: absolute; */
+    margin-right: 10px;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    color: 3C3C3C;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+    margin-bottom: 25px;
+
+} 
+
+.food-option {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 508px;
+    height: 140px;
+    margin-top: 67px;
+}
+
+.pizza, .burger, .beer {
+ width: 70px;
+ height: 70px;
+ margin-left: 46px;
+}
+
+.item {
+    font-size: 28px;
+    line-height: 16.8px;
+    margin-bottom: 8.8px;
+    margin-left: 31px;
+}
+
+.ingredients {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    margin-bottom: 8px;
+    margin-left: 31px;
+}
+
+.price {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-left: 31px;
+}
+
+.hidden {
+    display: none;
+}
+
+#order-section {
+    width: 600px;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #000;
+}
+
+#order-items {
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 10px 0;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size:22px;
+    font-weight: bold;
+}
