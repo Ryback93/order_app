@@ -17,10 +17,39 @@
                     <p>Total:</p>
                     <p id="total-price">$0</p>
                 </div>
+                <div class="order-btn-container">
+                    <button id="complete-order-btn" class="hidden">Complete Order</button>
+                </div>
             </section>
+
+            <div id="payment-modal" class="hidden">
+                <form id="payment-form">
+                    <h2>Enter Card Details</h2>
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                        name="fullName"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Enter card number"
+                        name="cardNumber"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Enter CVV"
+                        name="cvv"
+                        required    
+                    />
+                    <button type="submit" id="pay-btn">Pay</button>
+                </form>
+            </div>
         </div>
     
         <script src="index.js" type="module"></script>
     </body>
 </html>
 
+                        
